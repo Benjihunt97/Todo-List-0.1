@@ -1,0 +1,8 @@
+.active-list-item {
+  background: #3b0764;
+}
+
+.active-text {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
