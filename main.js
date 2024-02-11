@@ -32,16 +32,6 @@ $(document).ready(() => {
       $(e.currentTarget).find('input[type="checkbox"]').prop('disabled', true);
     }
   });
-  
-  // Checkbox click handler
-  $('.todo-wrapper').on('click', 'input[type="checkbox"]', (e) => {
-    e.stopPropagation();
-  });
-
-
-  $('.todo-wrapper').on('click', 'svg', (e) => {
-    e.stopPropagation();
-  });
 
   $('#menu-btn').click(() => {
     $('.completed').addClass('right-0');
